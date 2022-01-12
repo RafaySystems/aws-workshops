@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rafay Multi-Cluster Management Workshop on Rafay Workshop 1</title>
+    <link>/</link>
+    <description>Recent content in Rafay Multi-Cluster Management Workshop on Rafay Workshop 1</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Foreword</title>
+      <link>/10_step_e.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/10_step_e.html</guid>
+      <description>How did we get here? Set the stage for the audience, this page isn&amp;rsquo;t mandatory but will can be a great page for a hook.</description>
+    </item>
+    
+    <item>
+      <title>Learn KOP - Initial Setup</title>
+      <link>/010_intro/1_setup.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/010_intro/1_setup.html</guid>
+      <description>What Will You Do This is Part 1 of a multi-part, self-paced quick start exercise. In this part, you will perform a few &amp;ldquo;one-time&amp;rdquo; tasks required for cluster provisioning.
+Step 1: Create Cloud Credentials Cloud credentials provide privileges to programmatically interact with your Amazon AWS account so that the lifecycle of infrastructure associated with the Amazon EKS cluster can be managed.
+ Follow the step-by-step instructions to create an IAM Role based cloud credential.</description>
+    </item>
+    
+    <item>
+      <title>Learn KOP - Provision EKS Cluster with Amazon CloudWatch Integration</title>
+      <link>/010_intro/2_provision.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/010_intro/2_provision.html</guid>
+      <description>What Will You Do In this part of the self-paced exercise, you will provision an Amazon EKS cluster based on a declarative cluster specification
+Step 1: Cluster Spec  Open Terminal (on macOS/Linux) or Command Prompt (Windows) and navigate to the folder where you forked the Git repository Navigate to the folder &amp;ldquo;/getstarted/cloudwatch/cluster&amp;rdquo;  The &amp;ldquo;cloudwatch-eks-cluster.yaml&amp;rdquo; file contains the declarative specification for our Amazon EKS Cluster.
+Cluster Details The following items may need to be updated/customized if you made changes to these or used alternate names.</description>
+    </item>
+    
+    <item>
+      <title>Learn KOP - Part 3 - Zero Trust Kubectl</title>
+      <link>/010_intro/3_ztka.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/010_intro/3_ztka.html</guid>
+      <description>This is Part 3 of a multi-part, self paced exercise.
+What Will You Do In part 3, you will
+ Login into the Org simulating a remote user (e.g. a developer/colleague who is perhaps 100s or 1000s of miles away on a completely different network) Remotely access this cluster using the integrated browser based Zero Trust Kubectl View Kubectl audit logs  Estimated Time
+Estimated time burden for this part is 10 minutes.</description>
+    </item>
+    
+    <item>
+      <title>Learn KOP - Part 4 - Namespaces</title>
+      <link>/010_intro/4_namespaces.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/010_intro/4_namespaces.html</guid>
+      <description>This is Part 4 of a multi-part, self paced exercise.
+What Will You Do In this part, you will
+ Configure a Kubernetes namespace spec in your project Publish this namespace on a fleet of Kubernetes clusters  Estimated Time
+Estimated time burden for this part is 10 minutes.
+Step 1: Create Namespace  Login into your Org and navigate to the &amp;ldquo;desktop&amp;rdquo; project Select Infrastructure -&amp;gt; Namespaces Click on &amp;ldquo;New Namespace&amp;rdquo; Enter &amp;ldquo;kubeless&amp;rdquo; for Name Select &amp;ldquo;Wizard&amp;rdquo; for Type and Save  !</description>
+    </item>
+    
+    <item>
+      <title>Learn KOP - Amazon CloudWatch Blueprint</title>
+      <link>/010_intro/5_blueprint.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/010_intro/5_blueprint.html</guid>
+      <description>What Will You Do In this part of the self-paced exercise, you will create a custom cluster blueprint with a Amazon CloudWatch Agent add-on, based on declarative specifications.
+Step 1: Create Repository In this step, you will create a repository in your project so that the controller can retrieve the Helm charts automatically.
+ Open Terminal (on macOS/Linux) or Command Prompt (Windows) and navigate to the folder where you forked the Git repository Navigate to the folder &amp;ldquo;/getstarted/cloudwatch/repository&amp;rdquo;  The &amp;ldquo;cloudwatch-repository.</description>
+    </item>
+    
+    <item>
+      <title>Learn KOP - Part 6 - Visibility and Monitoring</title>
+      <link>/010_intro/6_visandmon.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/010_intro/6_visandmon.html</guid>
+      <description>This is Part 6 of a multi-part, self-paced exercise.
+What Will You Do In this part, you will explore the integrated visibility and monitoring capabilities of the platform. Specifically, you will explore the dashboards that provide you access to both critical summary and trends.
+ You will start with a &amp;ldquo;bird&amp;rsquo;s eye view&amp;rdquo; and contextually click in one level at a time, going deeper and deeper. Critical metrics are automatically scraped and aggregated at the controller in a centralized time series database (TSDB) Interactive, real time access to this data is provided  Estimated Time</description>
+    </item>
+    
+    <item>
+      <title>Learn KOP - Part 8 - Policy Management</title>
+      <link>/010_intro/7_polmgmt.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/010_intro/7_polmgmt.html</guid>
+      <description>This is Part 8 of a multi-part, self-paced exercise.
+What Will You Do In this part, you will create a Kubernetes policy in your project and enforce it on all cluster in your project. You will deploy a workload out of compliance with the policy and notice that it is blocked from deployment to the cluster.
+Estimated Time
+Estimated time burden for this part is 15 minutes.
+Step 1: Setup Workload One of the key benefits of using OPA Gatekeeper for policy management is that in addition to enforcing policies during &amp;ldquo;admission&amp;rdquo; to the Kubernetes cluster, it can also be used to determine which k8s resources &amp;ldquo;already existing&amp;rdquo; on the cluster are &amp;ldquo;out of compliance&amp;rdquo; with policy.</description>
+    </item>
+    
+    <item>
+      <title>Learn KOP - Deprovision Cluster</title>
+      <link>/010_intro/8_deprov.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/010_intro/8_deprov.html</guid>
+      <description>What Will You Do In this part of the self-paced exercise, you will deprovision your EKS cluster and all infrastructure that was deployed to your AWS account.
+Deprovision You can deprovision/delete your EKS cluster using the RCTL CLI.
+rctl delete cluster cloudwatch-cluster  Alternatively, you can also perform this from the web console
+ Click on the gear icon on the far right of the cluster Select &amp;ldquo;Delete&amp;rdquo; and acknowledge  NOTE that the delete operation can take some time so that it can delete all the infrastructure associated with your EKS Cluster.</description>
+    </item>
+    
+    <item>
+      <title>Learn KOP - Overview</title>
+      <link>/010_intro/overview.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/010_intro/overview.html</guid>
+      <description>This is a multi-part, self paced quick start exercise that users can follow to experience the key capabilities of the platform on an imported Kubernetes cluster. This exercise has been specifically designed to be experienced with just a laptop and not require access to expensive infrastructure on public cloud environments.
+What Will You Do    Part What will you do?     1 Create a new Project in your Org and import a k8s cluster into the Project   2 Add a new user (ideally a remote colleague) to the new project.</description>
+    </item>
+    
+  </channel>
+</rss>
