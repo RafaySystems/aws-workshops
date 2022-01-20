@@ -13,7 +13,7 @@ The Rafay Kubernetes Operations Platform is a modern operations approach for mod
 Kubernetes Operations is a holistic approach that unifies the lifecycle management of both Kubernetes clusters and containerized applications. With Rafay, these teams take advantage of the following platform services -- across both clusters and applications:
 
 
-![Rafay Overview](010_Rafay_Overview/images/Rafay-Services-V3.png)
+![Rafay Overview](images/Rafay-Services-V3.png)
 ---
 
 ### Multi-Cluster Management Service: 
@@ -40,7 +40,7 @@ Enables development, operations and security/governance teams to visualize and m
 
 With Rafay, enterprises can use any Kubernetes distribution and immediately gain centralized automation, security, visibility, and governance capabilities for Kubernetes cluster and application lifecycle management — across public clouds such as AWS, Azure, and GCP and remote/edge locations.
 
-![Rafay Capabilities](010_Rafay_Overview/images/Rafay-Capabilities-Blue-2-V5.svg)
+![Rafay Capabilities](images/Rafay-Capabilities-Blue-2-V5.svg)
 
 ---
 
