@@ -127,7 +127,7 @@ Once the project context has been successfully set, ensure you verify this in yo
 
 ## Step 3: Clone Git Repo 
 
-Declarative specs for the Amazon EKS cluster and other resources are available in a [Git repository](https://github.com/RafaySystems/getstarted)
+Declarative specs for the Amazon EKS cluster and other resources are available in a [Git repository](https://github.com/RafaySystems/getstarted).  A GitHub account is required for this step.  If you don't have a GitHub account, you can sign-up here:  https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home
 
 - Clone the Git repository to your laptop using the command below. 
 
