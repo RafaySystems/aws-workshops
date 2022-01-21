@@ -17,22 +17,22 @@ As Kubernetes becomes more mature through Cloud Native Computing Foundation (CNC
 ---
 
 ### Multi-Cluster Management Service: 
-Manage the lifecycle of Kubernetes clusters for managed Kubernetes services, such as Amazon EKS, and self managed Kubernetes distributions.
+Manage the lifecycle of Kubernetes clusters for managed Kubernetes services, such as Amazon EKS, and self managed Kubernetes distributions. Click [Here](https://rafay.co/platform/kubernetes-multi-cluster-management-service/) to learn move about Rafay's Multi-Cluster Management Service.
 
 ### GitOps Service:
-Enables infrastructure orchestration and application deployment through multi-stage, git-triggered pipelines.
+Enables infrastructure orchestration and application deployment through multi-stage, git-triggered pipelines.  Click [Here](https://rafay.co/platform/gitops-service/) to learn move about Rafay's GitOps Service.
 
 ### Zero-Trust Access Service:
-Enables controlled, audited access for developers, SREs and automation systems to Kubernetes infrastructure.
+Enables controlled, audited access for developers, SREs and automation systems to Kubernetes infrastructure. Click [Here](https://rafay.co/platform/zero-trust-access-service/) to learn move about Rafay's Zero-Trust Access Service.
 
 ### Kubernetes Policy Management Service:
-Enables policy management for clusters via the Open Policy Agent (OPA) framework for Kubernetes security and governance.
+Enables policy management for clusters via the Open Policy Agent (OPA) framework for Kubernetes security and governance. Click [Here](https://rafay.co/platform/kubernetes-policy-management-service/) to learn move about Rafay's Kubernetes Policy Management Service.
 
 ### Backup & Restore Service
-Enables disaster recovery and migration of the Kubernetes control plane and application data.
+Enables disaster recovery and migration of the Kubernetes control plane and application data. Click [Here](https://rafay.co/platform/backup-restore-service/) to learn move about Rafay's Kubernetes Backup & Restore Service.
 
 ### Visibility & Monitoring Service
-Enables development, operations and security/governance teams to visualize and monitor modern apps and underlying Kubernetes infrastructure through dedicated dashboards.
+Enables development, operations and security/governance teams to visualize and monitor modern apps and underlying Kubernetes infrastructure through dedicated dashboards. Click [Here](https://rafay.co/platform/visibility-monitoring-service/) to learn move about Rafay's Visibility & Monitoring Service.
 
 ---
 
