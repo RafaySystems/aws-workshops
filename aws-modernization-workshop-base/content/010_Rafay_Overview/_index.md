@@ -17,13 +17,13 @@ As Kubernetes becomes more mature through Cloud Native Computing Foundation (CNC
 ---
 
 ### Multi-Cluster Management Service: 
-Manage the lifecycle of K8s clusters for managed Kubernetes services, such as Amazon EKS and Azure AKS, as well as offerings such as Rancher and RedHat OpenShift.
+Manage the lifecycle of Kubernetes clusters for managed Kubernetes services, such as Amazon EKS, and self managed Kubernetes distributions.
 
 ### GitOps Service:
 Enables infrastructure orchestration and application deployment through multi-stage, git-triggered pipelines.
 
 ### Zero-Trust Access Service:
-Enables controlled, audited access for developers, SREs and automation systems to Kubernetes infrastructure.Zero Trust Access Service:
+Enables controlled, audited access for developers, SREs and automation systems to Kubernetes infrastructure.
 
 ### Kubernetes Policy Management Service:
 Enables policy management for clusters via the Open Policy Agent (OPA) framework for Kubernetes security and governance.
