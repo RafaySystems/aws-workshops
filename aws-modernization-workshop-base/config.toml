@@ -50,6 +50,11 @@ url = "https://rafay.co"
 weight = 10
 
 [[menu.shortcuts]]
+name = "Rafay Console Login"
+url = "https://console.rafay.dev/#/login"
+weight = 10
+
+[[menu.shortcuts]]
 name = "Rafay Free Trial"
 url = "https://rafay.co/start"
 weight = 11
