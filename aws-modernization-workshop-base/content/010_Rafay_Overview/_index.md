@@ -40,7 +40,7 @@ Enables development, operations and security/governance teams to visualize and m
 
 With Rafay, enterprises can use any Kubernetes distribution and immediately gain centralized automation, security, visibility, and governance capabilities for Kubernetes cluster and application lifecycle management — across public clouds such as AWS, Azure, and GCP and remote/edge locations.
 
-![Rafay Capabilities](images/Rafay-Capabilities-Blue-2-V5.svg)
+![Rafay Capabilities](images/Rafay-Capabilities-Blue-2-V5.png)
 
 ---
 
