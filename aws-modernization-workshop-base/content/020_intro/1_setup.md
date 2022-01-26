@@ -20,11 +20,11 @@ Cloud credentials provide privileges to programmatically interact with your Amaz
 
 - Select "Cloud Credentials", Click on "New Credential" and provide a unique name "aws-workshop-x" where x aligns with your Rafay user.
 
-![Create Cloud Credential](img/part1/cloud_credential_create.png)
-
 - Click on the drop down for "Credential Type" and select Role 
 
 - Click the Copy button for the "External ID"
+
+![Create Cloud Credential](img/part1/cloud_credential_create.png)
 
 - Click on the following CloudFormation Template link and login to the AWS console with the credentials you have been provided:  https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=Rafay-Cloud-Credential&templateURL=https://rafay-aws-workshop.s3.us-west-2.amazonaws.com/Rafay-Cloud-Credential.template
 
