@@ -20,11 +20,30 @@ Cloud credentials provide privileges to programmatically interact with your Amaz
 
 - Select "Cloud Credentials", Click on "New Credential" and provide a unique name "aws-workshop-x" where x aligns with your Rafay user.
 
-- Input the ARN that has been provided with your Rafay and AWS credentials into the External ID box.
+![Create Cloud Credential](img/part1/cloud_credential_create.png)
+
+- Click on the drop down for "Credential Type" and select Role 
+
+- Click the Copy button for the "External ID"
+
+- Click on the following CloudFormation Template link and login to the AWS console with the credentials you have been provided:  https://console.aws.amazon.com/cloudformation/home?#/stacks/new?stackName=Rafay-Cloud-Credential&templateURL=https://rafay-aws-workshop.s3.us-west-2.amazonaws.com/Rafay-Cloud-Credential.template
+
+- Once logged in to the AWS console you should be at the "Create Stack" page. Click Next
+
+- This brings up the "Specify Stack Details" page -> Enter the External ID copied from Rafay Credential Screen above into the "ExternalID" field and click next
+
+- This brings up the "Configure Stack Options" page -> Click Next
+
+- This brings up the "Review Rafay-Cloud-Credential" page.  Scroll to the bottom, select that you acknowledge that the CloudFormation template might create an IAM resource and then click "Create Stack". 
+
+- Wait 10 seconds and refresh the webpage.  Go to "Outputs" Tab at the top of the page and copy the Role ARN value
+
+- Return to the Rafay Console and paste the Role ARN value into Role ARN section in "Add Credential"
 
 ![Create Cloud Credential](img/part1/cloud_credential_create.png)
 
-- Provide the name created above "aws-workshop-x" for the cloud credential.  Note: The specification files will need to be updated to match the unique name.
+- Write down the name created above "aws-workshop-x" for the cloud credential.  Note: The specification files will need to be updated to match this unique name.
+
 ---
 
 ## Step 2: Download RCTL
@@ -127,7 +146,7 @@ Once the project context has been successfully set, ensure you verify this in yo
 
 ## Step 3: Clone Git Repo 
 
-Declarative specs for the Amazon EKS cluster and other resources are available in a [Git repository](https://github.com/RafaySystems/getstarted)
+Declarative specs for the Amazon EKS cluster and other resources are available in a [Git repository](https://github.com/RafaySystems/getstarted).  A GitHub account is required for this step.  If you don't have a GitHub account, you can sign-up here:  https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home
 
 - Clone the Git repository to your laptop using the command below. 
 

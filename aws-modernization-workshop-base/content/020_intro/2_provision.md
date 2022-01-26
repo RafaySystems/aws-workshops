@@ -47,7 +47,8 @@ kind: ClusterConfig
 
 metadata:
   name: test-eks
-  region: us-west-1
+  version: 1.20
+  region: us-east-1
   tags:
     'demo': 'true'
 
