@@ -1,0 +1,20 @@
+kind: Cluster
+metadata:
+  name: provisioned-cluster-xx
+  project: aws-workshop-xx
+spec:
+  blueprint: default
+  cloudprovider: aws-cloudcredential-xx
+  cniprovider: aws-cni
+  type: eks
+---
+apiVersion: rafay.io/v1alpha5
+kind: ClusterConfig
+metadata:
+  name: provisioned-cluster-xx
+  region: us-east-1
+  version: "1.20"
+managedNodeGroups:
+  - name: ng-1
+    instanceType: t3.large
+    desiredCapacity: 2
