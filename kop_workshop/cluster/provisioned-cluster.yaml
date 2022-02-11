@@ -18,3 +18,4 @@ managedNodeGroups:
   - name: ng-1
     instanceType: t3.large
     desiredCapacity: 2
+availabilityZones: ["us-east-1a", "us-east-1b"]
